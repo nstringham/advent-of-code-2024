@@ -1,0 +1,157 @@
+[package]
+name = "advent-of-code-2024"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+
+[[bin]]
+name = "01a"
+
+[[bin]]
+name = "01b"
+
+[[bin]]
+name = "02a"
+
+[[bin]]
+name = "02b"
+
+[[bin]]
+name = "03a"
+
+[[bin]]
+name = "03b"
+
+[[bin]]
+name = "04a"
+
+[[bin]]
+name = "04b"
+
+[[bin]]
+name = "05a"
+
+[[bin]]
+name = "05b"
+
+[[bin]]
+name = "06a"
+
+[[bin]]
+name = "06b"
+
+[[bin]]
+name = "07a"
+
+[[bin]]
+name = "07b"
+
+[[bin]]
+name = "08a"
+
+[[bin]]
+name = "08b"
+
+[[bin]]
+name = "09a"
+
+[[bin]]
+name = "09b"
+
+[[bin]]
+name = "10a"
+
+[[bin]]
+name = "10b"
+
+[[bin]]
+name = "11a"
+
+[[bin]]
+name = "11b"
+
+[[bin]]
+name = "12a"
+
+[[bin]]
+name = "12b"
+
+[[bin]]
+name = "13a"
+
+[[bin]]
+name = "13b"
+
+[[bin]]
+name = "14a"
+
+[[bin]]
+name = "14b"
+
+[[bin]]
+name = "15a"
+
+[[bin]]
+name = "15b"
+
+[[bin]]
+name = "16a"
+
+[[bin]]
+name = "16b"
+
+[[bin]]
+name = "17a"
+
+[[bin]]
+name = "17b"
+
+[[bin]]
+name = "18a"
+
+[[bin]]
+name = "18b"
+
+[[bin]]
+name = "19a"
+
+[[bin]]
+name = "19b"
+
+[[bin]]
+name = "20a"
+
+[[bin]]
+name = "20b"
+
+[[bin]]
+name = "21a"
+
+[[bin]]
+name = "21b"
+
+[[bin]]
+name = "22a"
+
+[[bin]]
+name = "22b"
+
+[[bin]]
+name = "23a"
+
+[[bin]]
+name = "23b"
+
+[[bin]]
+name = "24a"
+
+[[bin]]
+name = "24b"
+
+[[bin]]
+name = "25a"
+
+[[bin]]
+name = "25b"
