@@ -1,14 +1,9 @@
-use advent_of_code_2024::input_lines;
+use advent_of_code_2024::parsed_input_lines;
 
 fn main() {
-    let input = input_lines().map(|line| {
-        let mut row = line.split_whitespace().map(|string| {
-            string
-                .parse::<u32>()
-                .expect("Input should be a positive integer")
-        });
-        let first = row.next().expect("Input row should not be empty");
-        let second = row.next().expect("Input row should have 2 values");
+    let input = parsed_input_lines::<u32>().map(|row| {
+        let first = row.get(0).expect("Input row should not be empty").clone();
+        let second = row.get(1).expect("Input row should have 2 values").clone();
         (first, second)
     });
 

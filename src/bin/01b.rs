@@ -1,16 +1,11 @@
 use std::collections::HashMap;
 
-use advent_of_code_2024::input_lines;
+use advent_of_code_2024::parsed_input_lines;
 
 fn main() {
-    let input = input_lines().map(|line| {
-        let mut row = line.split_whitespace().map(|string| {
-            string
-                .parse::<u32>()
-                .expect("Input should be a positive integer")
-        });
-        let left = row.next().expect("Input row should not be empty");
-        let right = row.next().expect("Input row should have 2 values");
+    let input = parsed_input_lines::<u32>().map(|row| {
+        let left = row.get(0).expect("Input row should not be empty").clone();
+        let right = row.get(1).expect("Input row should have 2 values").clone();
         (left, right)
     });
 
