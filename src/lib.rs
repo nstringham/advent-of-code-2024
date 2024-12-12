@@ -28,7 +28,7 @@ where
 {
     input_lines().map(|line| {
         line.split_whitespace()
-            .map(|string| T::from_str(string).expect("Error Parsing Input"))
+            .map(|string| T::from_str(string).expect("Error parsing input"))
             .collect()
     })
 }
